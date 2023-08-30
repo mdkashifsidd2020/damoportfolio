@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from .models import *
+import tinme
 
 # Create your views here.
 def index(request):
